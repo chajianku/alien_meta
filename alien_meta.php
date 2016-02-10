@@ -12,7 +12,7 @@ For: 3.0+
   */
 
  	function alien_meta (){
- 		echo "<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">";
+ 		echo "<META NAME='ROBOTS' CONTENT='NOINDEX, NOFOLLOW'>";
  	}
  	addAction('header','alien_meta');
 ?>
